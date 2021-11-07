@@ -1,0 +1,2 @@
+Hello {{user.username}}
+Welcome to Elevator Pitch, where you perfect your pitches.You have signed up for our application and want to welcome you to the family. Enjoy!!!
