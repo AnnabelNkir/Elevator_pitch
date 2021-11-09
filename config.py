@@ -17,7 +17,7 @@ class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get('HEROKU_POSTGRESQL_ONYX_URL')
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/ELEVATORPITCH'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/Elevatorpitch'
     DEBUG = True
 
 config_options = {
