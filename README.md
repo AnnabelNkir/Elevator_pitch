@@ -49,6 +49,22 @@ The user is expected to navigate seamlessly through the application.
 + As a user, I would like to view the different categories.
 
 ```
+## Business Driven Development(BDD)
+
+```
+
+|  Behavior            | Input                         | Output                        |
+| ------------------- | ----------------------------- | ----------------------------- |
+| Signing up | Fill your credentials in the form in the signup page | Redirects to the login page after sign up |
+| Signing in | Fill in the form in the signin page | Redirects to the home page |
+| ```post pitch``` Button | In the home page, enter your pitch in text, select a category in the drop down menu and hit Post Button! | Reloads the page with the pitch as the newest pitch |
+| Liking a pitch | Press the thumbs up button | Adds a like |
+| Disliking a pitch | Press the thumbs down button | Adds a dislike |
+| ```Comment``` | Type the comment on the text area field in the pitch page, and hit post comment | Reloads the page and posts the comment. The comments will be shown from the most recent |
+| Viewing user profile | Click on the users name eg: ```Bella__``` | Redirects the user to the clicked user profile |
+| Uploading a photo | Click on the choose file button and choose file | The page will be refreshed with the profile photo updated |
+| Editing the bio | Click on the ```edit bio``` button and enter your bio  | Redirects the page back to the profile page with an updated bio |
+```
 ## Technologies
 ```
 .Flask
@@ -59,15 +75,16 @@ The user is expected to navigate seamlessly through the application.
 .Heroku
 
 ```
-
 ## Known Bugs
 There are no unresolved bugs in this code.
 
 ## Support and contact details
+
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at annabel.micheni@student.moringaschool or nkiroteannabel@gmail.com.
 
 
 ### MIT License
+
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -76,7 +93,8 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
-#### Copyright (c) [2021] [Annabel Nkirote Micheni] ####
+
+#### Copyright (c) [2021] [Annabel Micheni](https://github.com/AnnabelNkir)  ####
 
 ## Acknowlegment
 I acknowledge the amazing Moringa School fraternity, supportive TM and peers who have been making my learning experience better for which i am truly grateful for.
