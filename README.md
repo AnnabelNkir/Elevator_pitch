@@ -44,7 +44,7 @@ The user is expected to navigate seamlessly through the application.
 + A user will have to be signed in for them to leave a comment
 + A user will receive a welcoming email once they sign up.
 + Users will view the pitches on the profile page.
-+ A user can comment on the t pitches and leave feedback.
++ Users can comment on the t pitches and leave feedback.
 + Users can submit a pitch in any category.
 + Users can view the different categories of pitches.
 
