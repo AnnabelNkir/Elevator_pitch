@@ -44,8 +44,8 @@ The user is expected to navigate seamlessly through the application.
 + A user will have to be signed in for them to leave a comment
 + A user will receive a welcoming email once they sign up.
 + A user willl view the pitches they havin my profile page.
-+ As a user, I would like to comment on the t pitches and leave feedback.
-+ As a user, I would like to submit a pitch in any category.
++ A user can comment on the t pitches and leave feedback.
++ As user can submit a pitch in any category.
 + As a user, I would like to view the different categories.
 
 ```
