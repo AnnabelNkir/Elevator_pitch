@@ -4,7 +4,7 @@
 
 <div style="overflow: hidden; background-color: rgb(83, 74, 74); position: fixed; z-index: 1; top: 0; width: 100%;" class="container-fluid">
     <nav style="overflow: hidden; background-color: #fd1528;" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"> <img src="https://vignette.wikia.nocookie.net/doblaje/images/b/b9/Pitch-perfect-50cbd4a0c068e.png/revision/latest?cb=20150927051907&path-prefix=es" height="90px"> </a>
+    <a class="navbar-brand" href="#"> <img src="./https://vignette.wikia.nocookie.net/doblaje/images/b/b9/Pitch-perfect-50cbd4a0c068e.png/revision/latest?cb=20150927051907&path-prefix=es" height="90px"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,10 +21,10 @@
         <li class="nav navbar-nav navbar-right">
                     {% if current_user.is_authenticated %}
                     
-                    <li><a style="color: rgb(76, 34, 145);" href="{{url_for('main.profile',uname=current_user.username)}}" class="nav-link">{{current_user.username}}</a></li>
-                    <li><a style="color: rgb(76, 34, 145);" class="nav-link" href="{{url_for('auth.logout')}}">Sign out</a></li>
+                    <li><a style="color: rgb(76, 34, 145);" href="./{{url_for('main.profile',uname=current_user.username)}}" class="nav-link">{{current_user.username}}</a></li>
+                    <li><a style="color: rgb(76, 34, 145);" class="nav-link" href="./{{url_for('auth.logout')}}">Sign out</a></li>
                     {% else %}
-                    <li><a style="color: rgb(76, 34, 145);" class="nav-link" href="{{url_for("auth.login")}}">Sign in</a></li>
+                    <li><a style="color: rgb(76, 34, 145);" class="nav-link" href="./{{url_for("auth.login")}}">Sign in</a></li>
                     {% endif%}
         </li>
         </ul>
