@@ -46,7 +46,7 @@ The user is expected to navigate seamlessly through the application.
 + A user willl view the pitches they havin my profile page.
 + A user can comment on the t pitches and leave feedback.
 + A user can submit a pitch in any category.
-+ A user can view the different categories.
++ A user can view the different categories of pitches.
 
 ```
 
